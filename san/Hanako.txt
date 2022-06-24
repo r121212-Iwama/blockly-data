@@ -1,1 +1,0 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="wait_seconds" id="wait" x="83" y="126"><field name="SECONDS">1</field></block></xml>
