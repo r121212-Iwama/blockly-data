@@ -1,2 +1,1 @@
-Dear
-Hello Hajime!
+Hello main!
