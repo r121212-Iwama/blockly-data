@@ -27,26 +27,10 @@
                             </shadow>
                             <block type="text" id="IH*e4yRkKV?fNJZ_Eqg$">
                                 <field name="TEXT">
-                                    foge
+                                    piyo
                                 </field>
                             </block>
                         </value>
-                        <next>
-                            <block type="text_print" id="SiVf5/3rhq-8DW]}Nh/N">
-                                <value name="TEXT">
-                                    <shadow type="text" id="#{Lqq~kN:J_J-b{^]fr/">
-                                        <field name="TEXT">
-                                            abc
-                                        </field>
-                                    </shadow>
-                                    <block type="text" id="a+^KT)1=v;-dufq-{Qwx">
-                                        <field name="TEXT">
-                                            fuga
-                                        </field>
-                                    </block>
-                                </value>
-                            </block>
-                        </next>
                     </block>
                 </next>
             </block>
