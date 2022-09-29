@@ -27,7 +27,7 @@
                             </shadow>
                             <block type="text" id="IH*e4yRkKV?fNJZ_Eqg$">
                                 <field name="TEXT">
-                                    fuga
+                                    piyo
                                 </field>
                             </block>
                         </value>
