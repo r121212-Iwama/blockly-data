@@ -17,22 +17,6 @@
                 <field name="SECONDS">
                     1
                 </field>
-                <next>
-                    <block type="text_print" id="?8T@Dt42(kX.ff[ngF{G">
-                        <value name="TEXT">
-                            <shadow type="text" id="n]XrO_U-sppT9O4zfkD0">
-                                <field name="TEXT">
-                                    abc
-                                </field>
-                            </shadow>
-                            <block type="text" id="T?jbDz2JtG`uMY6D%d+V">
-                                <field name="TEXT">
-                                    hoge
-                                </field>
-                            </block>
-                        </value>
-                    </block>
-                </next>
             </block>
         </statement>
     </block>
