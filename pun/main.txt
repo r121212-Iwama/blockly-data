@@ -25,9 +25,9 @@
                                     abc
                                 </field>
                             </shadow>
-                            <block type="text" id="IH*e4yRkKV?fNJZ_Eqg$">
+                            <block type="text" id="T?jbDz2JtG`uMY6D%d+V">
                                 <field name="TEXT">
-                                    hoge
+                                    fuga
                                 </field>
                             </block>
                         </value>
