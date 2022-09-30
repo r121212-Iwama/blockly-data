@@ -31,6 +31,22 @@
                                 </field>
                             </block>
                         </value>
+                        <next>
+                            <block type="text_print" id="TjiGqE@}Y3c;zj0F8L3(">
+                                <value name="TEXT">
+                                    <shadow type="text" id="n]XrO_U-sppT9O4zfkD0">
+                                        <field name="TEXT">
+                                            abc
+                                        </field>
+                                    </shadow>
+                                    <block type="text" id="f@BjV,7Gi1R;k)3^Kj%}">
+                                        <field name="TEXT">
+                                            fuga
+                                        </field>
+                                    </block>
+                                </value>
+                            </block>
+                        </next>
                     </block>
                 </next>
             </block>
