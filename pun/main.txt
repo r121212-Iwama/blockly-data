@@ -1,5 +1,5 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
-    <block type="controls_repeat_ext" id="^?#H;(EXpG$sn[fETX4-" x="-2" y="64">
+    <block type="controls_repeat_ext" id="^?#H;(EXpG$sn[fETX4-" x="-105" y="16">
         <value name="TIMES">
             <shadow type="math_number" id="qCDxH1P[!s9%XI)v:Cyh">
                 <field name="NUM">
@@ -27,10 +27,26 @@
                             </shadow>
                             <block type="text" id="IH*e4yRkKV?fNJZ_Eqg$">
                                 <field name="TEXT">
-                                    fuga
+                                    hoge
                                 </field>
                             </block>
                         </value>
+                        <next>
+                            <block type="text_print" id="}0uwYv~o.rOL/ZufC1=W">
+                                <value name="TEXT">
+                                    <shadow type="text" id="*lo5@ZRK-B6l[U+k3WQ2">
+                                        <field name="TEXT">
+                                            abc
+                                        </field>
+                                    </shadow>
+                                    <block type="text" id="8#/V!A`iND2GNAzPVcAc">
+                                        <field name="TEXT">
+                                            piyo
+                                        </field>
+                                    </block>
+                                </value>
+                            </block>
+                        </next>
                     </block>
                 </next>
             </block>
