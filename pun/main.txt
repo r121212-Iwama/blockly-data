@@ -27,26 +27,10 @@
                             </shadow>
                             <block type="text" id="T?jbDz2JtG`uMY6D%d+V">
                                 <field name="TEXT">
-                                    piyopiyo
+                                    piyo
                                 </field>
                             </block>
                         </value>
-                        <next>
-                            <block type="text_print" id="l_qE#B7]L-Z#bVC@iS|S">
-                                <value name="TEXT">
-                                    <shadow type="text" id="n]XrO_U-sppT9O4zfkD0">
-                                        <field name="TEXT">
-                                            abc
-                                        </field>
-                                    </shadow>
-                                    <block type="text" id="-C6+L^H-@|,.U}v{dX:5">
-                                        <field name="TEXT">
-                                            hoge
-                                        </field>
-                                    </block>
-                                </value>
-                            </block>
-                        </next>
                     </block>
                 </next>
             </block>
