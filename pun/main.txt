@@ -1,39 +1,14 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
-    <block type="controls_repeat_ext" id="^?#H;(EXpG$sn[fETX4-" x="-105" y="16">
+    <block type="controls_repeat_ext" id="3Xe@uAQA6gQD)1.)AV]W" x="34" y="68">
         <value name="TIMES">
-            <shadow type="math_number" id="qCDxH1P[!s9%XI)v:Cyh">
+            <shadow type="math_number" id=":DP~tVJ5:B:`Nnj;5Zt6">
                 <field name="NUM">
                     10
                 </field>
             </shadow>
-            <block type="math_number" id="o^wf)rOx:pA|Dk%[N(r@">
-                <field name="NUM">
-                    3
-                </field>
-            </block>
         </value>
         <statement name="DO">
-            <block type="wait_seconds" id="wait">
-                <field name="SECONDS">
-                    1
-                </field>
-                <next>
-                    <block type="text_print" id="?8T@Dt42(kX.ff[ngF{G">
-                        <value name="TEXT">
-                            <shadow type="text" id="n]XrO_U-sppT9O4zfkD0">
-                                <field name="TEXT">
-                                    abc
-                                </field>
-                            </shadow>
-                            <block type="text" id="T?jbDz2JtG`uMY6D%d+V">
-                                <field name="TEXT">
-                                    piyo
-                                </field>
-                            </block>
-                        </value>
-                    </block>
-                </next>
-            </block>
+            <block type="maze_moveForward" id="ZBs@*;Hwb!KSVSr/2m1K"></block>
         </statement>
     </block>
 </xml>
