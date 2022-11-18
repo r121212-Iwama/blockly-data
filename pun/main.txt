@@ -3,7 +3,7 @@
         <statement name="DO">
             <block type="maze_ifElse" id="7xn]UncjS=ovH=VFtAZK">
                 <field name="DIR">
-                    isPathForward
+                    isPathLeft
                 </field>
                 <statement name="DO">
                     <block type="maze_turnLeft" id="`|aSNZdx=(*IZn[@Hr;u">
