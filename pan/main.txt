@@ -1,37 +1,23 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
-    <block type="controls_whileUntil" id="i0%]k$e}AG~va|U!Hv,j" x="25" y="103">
-        <field name="MODE">
-            WHILE
+    <block type="wait_seconds" id="wait" x="19" y="24">
+        <field name="SECONDS">
+            1
         </field>
-        <statement name="DO">
-            <block type="wait_seconds" id="wait">
-                <field name="SECONDS">
-                    1
-                </field>
-                <next>
-                    <block type="text_print" id="?8T@Dt42(kX.ff[ngF{G">
-                        <value name="TEXT">
-                            <shadow type="text" id="n]XrO_U-sppT9O4zfkD0">
-                                <field name="TEXT">
-                                    abc
-                                </field>
-                            </shadow>
-                            <block type="text" id="T?jbDz2JtG`uMY6D%d+V">
-                                <field name="TEXT">
-                                    piyo
-                                </field>
-                            </block>
-                        </value>
-                        <next>
-                            <block type="controls_flow_statements" id="]HBkA-|K_|[C[r/]V+O)">
-                                <field name="FLOW">
-                                    BREAK
-                                </field>
-                            </block>
-                        </next>
+        <next>
+            <block type="text_print" id="?8T@Dt42(kX.ff[ngF{G">
+                <value name="TEXT">
+                    <shadow type="text" id="n]XrO_U-sppT9O4zfkD0">
+                        <field name="TEXT">
+                            abc
+                        </field>
+                    </shadow>
+                    <block type="text" id="T?jbDz2JtG`uMY6D%d+V">
+                        <field name="TEXT">
+                            piyo
+                        </field>
                     </block>
-                </next>
+                </value>
             </block>
-        </statement>
+        </next>
     </block>
 </xml>
