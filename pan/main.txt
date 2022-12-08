@@ -1,7 +1,11 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
     <block type="maze_forever" id="^N*Y]P_sE[2QE$|7.xC2" x="66" y="144">
         <statement name="DO">
-            <block type="maze_moveForward" id="h~#pqQ74fX}T6IXlU:2*"></block>
+            <block type="maze_if_isPathLeft" id="jz6`F%XVD{ba1$mYxkjT">
+                <statement name="DO">
+                    <block type="maze_turnLeft" id="2?`Ph!k?R64W2rKYq*bk"></block>
+                </statement>
+            </block>
         </statement>
     </block>
 </xml>
