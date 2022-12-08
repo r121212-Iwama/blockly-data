@@ -3,18 +3,19 @@
         <statement name="DO">
             <block type="maze_if_isPathForward" id="^H^W8J1p9{yH;MY:a`s-">
                 <statement name="DO">
-                    <block type="maze_moveForward" id="b2K55(w~x`i(lkOdf)U/"></block>
-                </statement>
-                <next>
-                    <block type="maze_ifElse_isPathLeft" id=":kX:FbGW?b{lz6.{*AAe">
-                        <statement name="DO">
-                            <block type="maze_turnLeft" id="d}NNnCPS)RZCy_-iBzYZ"></block>
-                        </statement>
-                        <statement name="ELSE">
-                            <block type="maze_moveForward" id="4|6]mnldoT9`$Ux^^n0m"></block>
-                        </statement>
+                    <block type="maze_moveForward" id="b2K55(w~x`i(lkOdf)U/">
+                        <next>
+                            <block type="maze_ifElse_isPathLeft" id=":kX:FbGW?b{lz6.{*AAe">
+                                <statement name="DO">
+                                    <block type="maze_turnLeft" id="d}NNnCPS)RZCy_-iBzYZ"></block>
+                                </statement>
+                                <statement name="ELSE">
+                                    <block type="maze_moveForward" id="4|6]mnldoT9`$Ux^^n0m"></block>
+                                </statement>
+                            </block>
+                        </next>
                     </block>
-                </next>
+                </statement>
             </block>
         </statement>
     </block>
