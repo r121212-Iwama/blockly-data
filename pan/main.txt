@@ -1,21 +1,31 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
-    <block type="maze_forever" id="^N*Y]P_sE[2QE$|7.xC2" x="35" y="135">
+    <block type="controls_repeat_ext" id="{Tja_SGwYZ(Gogt!x]@*" x="155" y="78">
+        <value name="TIMES">
+            <shadow type="math_number" id="[U5Z+9JPtkzRP;RS22jm">
+                <field name="NUM">
+                    3
+                </field>
+            </shadow>
+        </value>
         <statement name="DO">
-            <block type="maze_if_isPathForward" id="^H^W8J1p9{yH;MY:a`s-">
-                <statement name="DO">
-                    <block type="maze_moveForward" id="b2K55(w~x`i(lkOdf)U/">
-                        <next>
-                            <block type="maze_ifElse_isPathLeft" id=":kX:FbGW?b{lz6.{*AAe">
-                                <statement name="DO">
-                                    <block type="maze_turnLeft" id="d}NNnCPS)RZCy_-iBzYZ"></block>
-                                </statement>
-                                <statement name="ELSE">
-                                    <block type="maze_moveForward" id="4|6]mnldoT9`$Ux^^n0m"></block>
-                                </statement>
+            <block type="wait_seconds" id="wait">
+                <field name="SECONDS">
+                    1
+                </field>
+                <next>
+                    <block type="text_print" id="@AnLAc9.@2-(_[R{wg!C">
+                        <value name="TEXT">
+                            <shadow type="text" id="Cd@8Y|gbi]-;+th`TJ).">
+                                <field name="TEXT"></field>
+                            </shadow>
+                            <block type="text" id="WhG6lVUdSIi97%/aZICy">
+                                <field name="TEXT">
+                                    piyo
+                                </field>
                             </block>
-                        </next>
+                        </value>
                     </block>
-                </statement>
+                </next>
             </block>
         </statement>
     </block>
