@@ -24,6 +24,20 @@
                                 </field>
                             </block>
                         </value>
+                        <next>
+                            <block type="text_print" id="zzC}=?IBJ1:!wX5/AOc(">
+                                <value name="TEXT">
+                                    <shadow type="text" id="Cd@8Y|gbi]-;+th`TJ).">
+                                        <field name="TEXT"></field>
+                                    </shadow>
+                                    <block type="text" id="1u6hg+N6bz/H_JAhj4FD">
+                                        <field name="TEXT">
+                                            hoge
+                                        </field>
+                                    </block>
+                                </value>
+                            </block>
+                        </next>
                     </block>
                 </next>
             </block>
