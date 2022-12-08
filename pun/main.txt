@@ -1,34 +1,21 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
     <block type="maze_forever" id="nP@Fl~XUybaWT*k22^6W" x="-13" y="4">
         <statement name="DO">
-            <block type="maze_ifElse" id="7xn]UncjS=ovH=VFtAZK">
-                <field name="DIR">
-                    isPathLeft
-                </field>
+            <block type="maze_ifElse_isPathLeft" id="dx};a|[01ES^`s.xC!9`">
                 <statement name="DO">
-                    <block type="maze_turn" id="6cAQbD1xb}cGhh8GR6TI">
-                        <field name="DIR">
-                            turnLeft
-                        </field>
+                    <block type="maze_turnLeft" id="`|aSNZdx=(*IZn[@Hr;u">
                         <next>
                             <block type="maze_moveForward" id=";vlEv`s$B1gx=Av/mlb`"></block>
                         </next>
                     </block>
                 </statement>
                 <statement name="ELSE">
-                    <block type="maze_ifElse" id="M#VuhlWZ^c_9@JG:{:4q">
-                        <field name="DIR">
-                            isPathForward
-                        </field>
+                    <block type="maze_ifElse_isPathForward" id="p#/h4~k+2=)BKimJq0)r">
                         <statement name="DO">
                             <block type="maze_moveForward" id="_?F{WEA:3TL3WX8S9K{2"></block>
                         </statement>
                         <statement name="ELSE">
-                            <block type="maze_turn" id="Tz0jOwT``Ky::c/WxHzw">
-                                <field name="DIR">
-                                    turnRight
-                                </field>
-                            </block>
+                            <block type="maze_turnRight" id="O[9[w,_Hb5Im*ddMOjcT"></block>
                         </statement>
                     </block>
                 </statement>
