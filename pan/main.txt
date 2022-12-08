@@ -1,20 +1,14 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
-    <block type="maze_forever" id="^N*Y]P_sE[2QE$|7.xC2" x="66" y="144">
+    <block type="maze_forever" id="^N*Y]P_sE[2QE$|7.xC2" x="35" y="135">
         <statement name="DO">
             <block type="maze_if_isPathForward" id="^H^W8J1p9{yH;MY:a`s-">
                 <statement name="DO">
-                    <block type="maze_moveForward" id="b2K55(w~x`i(lkOdf)U/"></block>
-                </statement>
-                <next>
-                    <block type="maze_ifElse_isPathLeft" id="_8Nbk{yjFIR%6k@9u~F3">
-                        <statement name="DO">
-                            <block type="maze_turnLeft" id="rw9L)J,l(`-{;~[bfV~C"></block>
-                        </statement>
-                        <statement name="ELSE">
-                            <block type="maze_moveForward" id="Vdl~Lqtk!sEKQt.JzMN^"></block>
-                        </statement>
+                    <block type="maze_moveForward" id="b2K55(w~x`i(lkOdf)U/">
+                        <next>
+                            <block type="maze_turnLeft" id="v|}!]zsgI}qpEu(/rk,p"></block>
+                        </next>
                     </block>
-                </next>
+                </statement>
             </block>
         </statement>
     </block>
