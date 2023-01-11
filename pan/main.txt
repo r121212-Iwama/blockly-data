@@ -1,29 +1,30 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
-    <block type="text_print" id="@AnLAc9.@2-(_[R{wg!C" x="152" y="111">
-        <value name="TEXT">
-            <shadow type="text" id="Cd@8Y|gbi]-;+th`TJ).">
-                <field name="TEXT"></field>
+    <block type="controls_repeat_ext" id="=5E@$Y%f1g4Y1jIGMR$!" x="86" y="86">
+        <value name="TIMES">
+            <shadow type="math_number" id="8w#,T]H981_w1##bg]*-">
+                <field name="NUM">
+                    10
+                </field>
             </shadow>
-            <block type="text" id="WhG6lVUdSIi97%/aZICy">
-                <field name="TEXT">
-                    hoge
+            <block type="math_number" id="{-B{X+p+]4cCURwCT_)(">
+                <field name="NUM">
+                    3
                 </field>
             </block>
         </value>
-        <next>
-            <block type="text_print" id="{Ue*UU6|:cKA~R^/Y}:p">
+        <statement name="DO">
+            <block type="text_print" id="@AnLAc9.@2-(_[R{wg!C">
                 <value name="TEXT">
                     <shadow type="text" id="Cd@8Y|gbi]-;+th`TJ).">
                         <field name="TEXT"></field>
                     </shadow>
-                    <block type="text" id="rB*)Ju^23{qe8)QSV/:Z">
+                    <block type="text" id="WhG6lVUdSIi97%/aZICy">
                         <field name="TEXT">
-                            fuga
+                            piyo
                         </field>
                     </block>
                 </value>
             </block>
-        </next>
-
+        </statement>
     </block>
 </xml>
