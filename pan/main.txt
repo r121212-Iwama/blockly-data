@@ -1,1 +1,60 @@
-<xml xmlns="https://developers.google.com/blockly/xml"></xml>
+<xml xmlns="https://developers.google.com/blockly/xml">
+    <block type="controls_repeat_ext" id="iK4TV@!m.0|qYE9,fr}u" x="19" y="71">
+        <value name="TIMES">
+            <shadow type="math_number" id="W?pC#TSj6`2l-B%Bf@EP">
+                <field name="NUM">
+                    0
+                </field>
+            </shadow>
+            <block type="math_number" id="(D#jC@8i+JSn~CLjJbDw">
+                <field name="NUM">
+                    3
+                </field>
+            </block>
+        </value>
+        <statement name="DO">
+            <block type="text_print" id="@AnLAc9.@2-(_[R{wg!C">
+                <value name="TEXT">
+                    <shadow type="text" id="Cd@8Y|gbi]-;+th`TJ).">
+                        <field name="TEXT"></field>
+                    </shadow>
+                    <block type="text" id="WhG6lVUdSIi97%/aZICy">
+                        <field name="TEXT">
+                            piyo
+                        </field>
+                    </block>
+                </value>
+                <next>
+                    <block type="controls_repeat_ext" id="F+pF@IB1ipdl9XFOOUHG">
+                        <value name="TIMES">
+                            <shadow type="math_number" id="W?pC#TSj6`2l-B%Bf@EP">
+                                <field name="NUM">
+                                    0
+                                </field>
+                            </shadow>
+                            <block type="math_number" id="Z_;ZcEa05RgNRcf6t9G#">
+                                <field name="NUM">
+                                    3
+                                </field>
+                            </block>
+                        </value>
+                        <statement name="DO">
+                            <block type="text_print" id="{Ue*UU6|:cKA~R^/Y}:p">
+                                <value name="TEXT">
+                                    <shadow type="text" id="Cd@8Y|gbi]-;+th`TJ).">
+                                        <field name="TEXT"></field>
+                                    </shadow>
+                                    <block type="text" id="rB*)Ju^23{qe8)QSV/:Z">
+                                        <field name="TEXT">
+                                            fuga
+                                        </field>
+                                    </block>
+                                </value>
+                            </block>
+                        </statement>
+                    </block>
+                </next>
+            </block>
+        </statement>
+    </block>
+</xml>
