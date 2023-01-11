@@ -6,7 +6,7 @@
             </shadow>
             <block type="text" id="WhG6lVUdSIi97%/aZICy">
                 <field name="TEXT">
-                    piyo
+                    hoge
                 </field>
             </block>
         </value>
@@ -18,7 +18,7 @@
                     </shadow>
                     <block type="text" id="rB*)Ju^23{qe8)QSV/:Z">
                         <field name="TEXT">
-                            piyo
+                            fuga
                         </field>
                     </block>
                 </value>
