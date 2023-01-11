@@ -6,9 +6,24 @@
             </shadow>
             <block type="text" id="WhG6lVUdSIi97%/aZICy">
                 <field name="TEXT">
-                    piyo
+                    hoge
                 </field>
             </block>
         </value>
+        <next>
+            <block type="text_print" id="{Ue*UU6|:cKA~R^/Y}:p">
+                <value name="TEXT">
+                    <shadow type="text" id="Cd@8Y|gbi]-;+th`TJ).">
+                        <field name="TEXT"></field>
+                    </shadow>
+                    <block type="text" id="rB*)Ju^23{qe8)QSV/:Z">
+                        <field name="TEXT">
+                            fuga
+                        </field>
+                    </block>
+                </value>
+            </block>
+        </next>
+
     </block>
 </xml>
