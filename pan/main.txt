@@ -20,7 +20,7 @@
                     </shadow>
                     <block type="text" id="WhG6lVUdSIi97%/aZICy">
                         <field name="TEXT">
-                            hoge
+                            piyo
                         </field>
                     </block>
                 </value>
