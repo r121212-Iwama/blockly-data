@@ -25,33 +25,17 @@
                     </block>
                 </value>
                 <next>
-                    <block type="controls_repeat_ext" id=",uXP1h1@/I}TIj{#%PNu">
-                        <value name="TIMES">
-                            <shadow type="math_number" id="W?pC#TSj6`2l-B%Bf@EP">
-                                <field name="NUM">
-                                    0
-                                </field>
+                    <block type="text_print" id=";k0a42ds$,xSbZT~RcR(">
+                        <value name="TEXT">
+                            <shadow type="text" id="Cd@8Y|gbi]-;+th`TJ).">
+                                <field name="TEXT"></field>
                             </shadow>
-                            <block type="math_number" id="x.iH!#hB}~|RWvt$[XYk">
-                                <field name="NUM">
-                                    3
+                            <block type="text" id="/-;%4#3{uMy`qt-kqAIC">
+                                <field name="TEXT">
+                                    fuga
                                 </field>
                             </block>
                         </value>
-                        <statement name="DO">
-                            <block type="text_print" id=";k0a42ds$,xSbZT~RcR(">
-                                <value name="TEXT">
-                                    <shadow type="text" id="Cd@8Y|gbi]-;+th`TJ).">
-                                        <field name="TEXT"></field>
-                                    </shadow>
-                                    <block type="text" id="/-;%4#3{uMy`qt-kqAIC">
-                                        <field name="TEXT">
-                                            fuga
-                                        </field>
-                                    </block>
-                                </value>
-                            </block>
-                        </statement>
                     </block>
                 </next>
             </block>
