@@ -24,6 +24,20 @@
                         </field>
                     </block>
                 </value>
+                <next>
+                    <block type="text_print" id="TEqww[.Yf~y(}H{mw.VL">
+                        <value name="TEXT">
+                            <shadow type="text" id="Cd@8Y|gbi]-;+th`TJ).">
+                                <field name="TEXT"></field>
+                            </shadow>
+                            <block type="text" id="$PQMH;j/?C95tC2Sv]T5">
+                                <field name="TEXT">
+                                    fuga
+                                </field>
+                            </block>
+                        </value>
+                    </block>
+                </next>
             </block>
         </statement>
     </block>
