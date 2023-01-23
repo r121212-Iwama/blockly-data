@@ -1,1 +1,32 @@
-<xml xmlns="https://developers.google.com/blockly/xml"></xml>
+<xml xmlns="https://developers.google.com/blockly/xml">
+    <block type="controls_repeat_ext" id="9+S%Q)+[6@HRUlYs0Z,%" x="2" y="32">
+        <value name="TIMES">
+            <shadow type="math_number" id="rqVunclPhs6HEe|JDOmA">
+                <field name="NUM">
+                    10
+                </field>
+            </shadow>
+            <block type="math_number" id="Y8L2NBMHf9Ij8]5`h2)U">
+                <field name="NUM">
+                    3
+                </field>
+            </block>
+        </value>
+        <statement name="DO">
+            <block type="text_print" id="Jt#0+k-2!2{n;r`I5S=6">
+                <value name="TEXT">
+                    <shadow type="text" id="cIMxPEO0I5wBsp91aNtN">
+                        <field name="TEXT">
+                            abc
+                        </field>
+                    </shadow>
+                    <block type="text" id="5W?lInu;IxeYz(44+OZi">
+                        <field name="TEXT">
+                            piyo
+                        </field>
+                    </block>
+                </value>
+            </block>
+        </statement>
+    </block>
+</xml>
