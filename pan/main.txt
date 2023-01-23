@@ -13,12 +13,12 @@
             </block>
         </value>
         <statement name="DO">
-            <block type="text_print" id="@AnLAc9.@2-(_[R{wg!C">
+            <block type="text_print" id="3/oSqe^rz~`R(*Te/5mE">
                 <value name="TEXT">
                     <shadow type="text" id="Cd@8Y|gbi]-;+th`TJ).">
                         <field name="TEXT"></field>
                     </shadow>
-                    <block type="text" id="WhG6lVUdSIi97%/aZICy">
+                    <block type="text" id="B,XV=s$hIIUMtGA1rO_%">
                         <field name="TEXT">
                             piyo
                         </field>
