@@ -36,7 +36,7 @@
                             </shadow>
                             <block type="text" id="pQL.;Y=5=IFp6~iEVj:#">
                                 <field name="TEXT">
-                                    piyo
+                                    huga
                                 </field>
                             </block>
                         </value>
