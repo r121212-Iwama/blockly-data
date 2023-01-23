@@ -22,10 +22,26 @@
                     </shadow>
                     <block type="text" id="5W?lInu;IxeYz(44+OZi">
                         <field name="TEXT">
-                            piyo
+                            ぴよ
                         </field>
                     </block>
                 </value>
+                <next>
+                    <block type="text_print" id="kf7F7);VuVig/=;)4aae">
+                        <value name="TEXT">
+                            <shadow type="text" id="cIMxPEO0I5wBsp91aNtN">
+                                <field name="TEXT">
+                                    abc
+                                </field>
+                            </shadow>
+                            <block type="text" id="(L9:NI9Q8Hn#s;ic+VFL">
+                                <field name="TEXT">
+                                    huga
+                                </field>
+                            </block>
+                        </value>
+                    </block>
+                </next>
             </block>
         </statement>
     </block>
