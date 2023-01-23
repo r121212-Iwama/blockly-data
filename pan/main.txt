@@ -1,7 +1,48 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
-    <block type="maze_forever" id="E=yV]dV`/4PC1SVwQyxE" x="19" y="5">
+    <block type="controls_repeat_ext" id="*#Z3~bIM,jt)wwWoBN-l" x="58" y="35">
+        <value name="TIMES">
+            <shadow type="math_number" id="_BQ1Y}yB+|%:`ran%JDo">
+                <field name="NUM">
+                    10
+                </field>
+            </shadow>
+            <block type="math_number" id="Mc.J2BoZo38RLOCTxE.U">
+                <field name="NUM">
+                    3
+                </field>
+            </block>
+        </value>
         <statement name="DO">
-            <block type="maze_moveForward" id="zv6]Yl8J{PL*pIH7:zbs"></block>
+            <block type="text_print" id="i/g-=*d-B`wIaWn:X6oU">
+                <value name="TEXT">
+                    <shadow type="text" id="m#n)%Tc`J}|g!9-_ON#M">
+                        <field name="TEXT">
+                            abc
+                        </field>
+                    </shadow>
+                    <block type="text" id="G1zZuI_/jmvfmD?nETl-">
+                        <field name="TEXT">
+                            piyo
+                        </field>
+                    </block>
+                </value>
+                <next>
+                    <block type="text_print" id="w`X0*|gxhVFcjFIlaH4Y">
+                        <value name="TEXT">
+                            <shadow type="text" id="m#n)%Tc`J}|g!9-_ON#M">
+                                <field name="TEXT">
+                                    abc
+                                </field>
+                            </shadow>
+                            <block type="text" id="pQL.;Y=5=IFp6~iEVj:#">
+                                <field name="TEXT">
+                                    piyo
+                                </field>
+                            </block>
+                        </value>
+                    </block>
+                </next>
+            </block>
         </statement>
     </block>
 </xml>
